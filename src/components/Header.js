@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <header>
-      <nav>
+      <nav class >
         <ul>
           <li>Home</li>
           <li>About Me</li>
@@ -12,7 +12,10 @@ const Header = () => {
           <li>Contact</li>
         </ul>
       </nav>
-      <h1>I am Dom Spadafora</h1>
+      <h1>Dom Spadafora</h1>
+      <p>
+        Currently a Full-Stack Web Developer aspiring to create the best opportunities for my family and I. Take a look around to learn more about me. 
+      </p>
     </header>
   )
 }
