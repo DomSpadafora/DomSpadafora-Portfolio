@@ -1,14 +1,18 @@
-.header {
-    background: #f9b713;
-    height: 200px;
+header {
+    height: 100px;
 }
   
-.header h1 {
-    margin: 0;
+header h1 {
+    margin: 20;
     padding-top: 75px;
     text-align: center;
-    color: white;
     font-size: 3rem;
+}
+header p {
+    margin: 10;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1rem;
 }
 nav {
     padding-top: 25px;
