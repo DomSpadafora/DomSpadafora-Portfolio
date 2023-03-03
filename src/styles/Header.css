@@ -1,0 +1,25 @@
+.header {
+    background: #f9b713;
+    height: 200px;
+}
+  
+.header h1 {
+    margin: 0;
+    padding-top: 75px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+nav {
+    padding-top: 25px;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+nav li {
+    height: 48px;
+    display: inline-block;
+    word-spacing: em;
+ }
+  

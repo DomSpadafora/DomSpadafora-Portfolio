@@ -1,15 +1,16 @@
 import React from 'react'
+import '../styles/Header.css';
 
 const Header = () => {
   return (
     <header>
-      <nav class >
+      <nav  >
         <ul>
-          <li>Home</li>
-          <li>About Me</li>
-          <li>Resume</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li><a class='smoothscroll' href='#home'>Home</a></li>
+          <li><a class='smoothscroll' href='#about me'>About Me</a></li>
+          <li><a class='smoothscroll' href='#resume'>Resume</a></li>
+          <li><a class='smoothscroll' href='#projects'>Projects</a></li>
+          <li><a class='smoothscroll' href='#contact'>Contact</a></li>
         </ul>
       </nav>
       <h1>Dom Spadafora</h1>
