@@ -1,0 +1,31 @@
+#appsDiv {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#apps {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#apps .card {
+    width: 48%;
+    position: relative;
+}
+
+#apps .card div {
+    position: absolute;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    bottom: 10px;
+    left: 10px;
+}
+
+#apps .card:first-child {
+    width: 100%;
+    height: 40vh;
+    
+}
