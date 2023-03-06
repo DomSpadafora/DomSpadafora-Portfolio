@@ -1,25 +1,37 @@
-import React from 'react'
-import '../styles/Header.css';
+import React from 'react';
 
-const Header = () => {
+const Nav = () => {
+  const linkStyle = { border: '1px black', padding: '5px' };
+
   return (
-    <header>
-      <nav>
-        <ul>
-          <li><a class='current' href='#home'>Home</a></li>
-          <li><a class='smoothscroll' href='#about me'>About Me</a></li>
-          <li><a class='smoothscroll' href='#resume'>Resume</a></li>
-          <li><a class='smoothscroll' href='#projects'>Projects</a></li>
-          <li><a class='smoothscroll' href='#contact'>Contact</a></li>
-        </ul>
-      </nav>
-      <h1>Dom Spadafora</h1>
-      <p>
-        Currently a Full-Stack Web Developer aspiring to create the best opportunities for my family and I. Take a look around to learn more about me.
-      </p>
-    </header>
-  )
+    <nav className="main-header-menu">
+      <section
+        style={{
+          display: 'flex',
+          fontFamily: 'helvetica',
+          flexDirection: 'row',
+          alignItems: 'flex-start',
+          justifyContent: 'flex-start',
+        }}
+      >
+        <div style={linkStyle}>
+          <a href="home">Home</a>
+        </div>
+        <div style={linkStyle}>
+          <a href="about-me">About Me</a>
+        </div>
+        <div style={linkStyle}>
+          <a href="resume">Resume</a>
+        </div>
+        <div style={linkStyle}>
+          <a href="projects">Projects</a>
+        </div>
+        <div style={linkStyle}>
+          <a href="contact">Contact</a>
+        </div>
+      </section>
+    </nav>
+  );
 }
 
-export default Header
-
+export default Nav
