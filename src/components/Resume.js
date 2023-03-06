@@ -1,11 +1,12 @@
 import React from 'react'
 
 const Resume = () => {
-  return (
-    <section>
+  return(
+    <div>
       <h1>Resume</h1>
-    </section>
+    </div>
   )
+
 }
 
 export default Resume
