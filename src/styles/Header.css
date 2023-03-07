@@ -1,0 +1,10 @@
+nav {
+    background: #afbfc0;
+
+};
+
+li {
+  font-size: 25px;
+  list-style-type: none;
+  display: inline
+}

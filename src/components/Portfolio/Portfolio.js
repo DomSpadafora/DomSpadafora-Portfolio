@@ -7,21 +7,17 @@ return (
   <div id='appsDiv'>
     <h2>Applications</h2>
 
-    <main id='apps'>
-
+    <div>
       {apps.map(({ name, image, github, deploy, key }) => (
         <div key={key}>
-          
           <ProjectCard 
           name={name}
           image={image}
           github={github}
-          deploy={deploy}
-        />
-
+          deploy={deploy}/>
         </div>)
       )}
-    </main>
+    </div>
 
   </div>
   )}
