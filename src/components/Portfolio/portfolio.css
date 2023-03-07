@@ -11,6 +11,9 @@
     height: 100px;
     margin: 2rem;
     width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     
 
 }

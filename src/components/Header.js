@@ -5,17 +5,23 @@ import Contact from './Contact';
 import Resume from './Resume';
 import Home from './Home';
 import '../styles/Header.css'
+import logo from '../images/domspadafora.PNG'
 
 
 const Header = () =>
   <Router>
     <div>
-      <nav>
-          <li><Link to={'/'} > Home </Link></li>
-          <li><Link to={'/contact'} >Contact</Link></li>
-          <li><Link to={'/about-me'} >About</Link></li>
-          <li><Link to={'/resume'} >Resume</Link></li>
-          <li><Link to={'/portfolio'} >Porfolio</Link></li>
+      <nav className="navbar navbar-expand p-1">
+      <img src={logo} className="img-responsive rounded" alt=""/>
+          
+        
+        <ul className="navbar-nav navbar-collapse ">
+          <li><Link to={'/'} className= 'nav-link' > Home </Link></li>
+          <li><Link to={'/contact'} className= 'nav-link'>Contact</Link></li>
+          <li><Link to={'/about-me'} className= 'nav-link'>About</Link></li>
+          <li><Link to={'/resume'} className= 'nav-link'>Resume</Link></li>
+          <li><Link to={'/portfolio'} className= 'nav-link'>Porfolio</Link></li>
+        </ul>
       </nav>
       <hr />
       <Routes>

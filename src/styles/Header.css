@@ -1,10 +1,11 @@
 nav {
     background: #afbfc0;
-
+    font-size: 20px;
+    height: 100px;
+    width: auto;
+    
+  
+    
+    
 };
 
-li {
-  font-size: 25px;
-  list-style-type: none;
-  display: inline
-}
