@@ -4,7 +4,7 @@ import ProjectCard from './Project'
 
 const Portfolio = () => {
 return (
-  <div id='appsDiv'>
+  <div id='appsDiv' >
     <h2>Portfolio Applications</h2>
     <hr></hr>
     <div className='cards'>
