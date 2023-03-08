@@ -17,3 +17,7 @@
     margin-top: 100px
     
 }
+.container {
+    background-image: url(../images/silverbackground.jpg);
+    background-size: cover
+}

@@ -1,7 +1,9 @@
 .resume {
     width: 90%;
     padding-top: 10px;
-    margin-left: 5%
+    margin-left: 5%;
+    background-image: url(../images/silverbackground.jpg);
+    background-size: cover
     
 }
 

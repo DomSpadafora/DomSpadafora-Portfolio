@@ -12,7 +12,7 @@ const AboutME = () => {
           <hr></hr>
           <img className='rounded-circle' id='headshot' src={headshot} alt="Dom Spadafora" />
         </div>
-        <div class='col'>
+        <div className='col'>
           <p id='about-text'>
           Growing up baseball was my life, not only baseball, but sports in general. Each team that I have ever been on has impacted my life in some way. The dream of playing baseball for a living has diminished but the desire to be around people and build new teams has not.
           </p>

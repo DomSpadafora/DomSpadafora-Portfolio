@@ -1,26 +1,32 @@
 body {
-    background-image: url(../images/silverbackground.jpg);
-    background-size: cover
+    background-image: url(../images/citybackground.jpg);
+    background-size: cover;
+    
 }
 
+
 card {
-    background-color: rgb(222, 225, 228);
+    background: rgba(204, 204, 204, 0.7);
     margin-left: auto;
     margin-right: auto;
     width: 50em;
     position: absolute;
     top: 30%;
     left: 30%;
-    text-align: center
-
-    
+    text-align: center;
+       
 }
 
-body h1 {
+
+.home-background h1 {
     font-size: 75px;
-    padding: 50px
+    padding: 50px;
+    font-weight: bolder;
+    color: 342e37
 }
 
-body p {
-    font-size: 20px
+.home-background p {
+    font-size: 20px;
+    font-weight: bold;
+    color: 342e37
 }

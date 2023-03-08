@@ -2,6 +2,8 @@
     text-align: center;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 5rem;
+    margin-top: 1rem
 }
 
 
@@ -14,9 +16,12 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    box-shadow: 5px 5px 5px 5px;
+    background-image: url(../../images/silverbackground.jpg);
+    background-size: cover
     
-
 }
+
 .project-text {
     font-size: 15px;
     font-weight: lighter;
