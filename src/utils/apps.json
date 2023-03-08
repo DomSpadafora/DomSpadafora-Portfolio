@@ -1,42 +1,42 @@
 [
     {
         "key":1,
-        "name": "App 1",
-        "image": "https://picsum.photos/200/200",
-        "info":"App 1 info",
-        "github": "https:github.com/domspadafora",
-        "deploy": "https://domspadafora.github.io/5-Doms-Workday-Scheduler/"
+        "name": "Nanny's Diary",
+        "image": "https://github.com/DomSpadafora/Doms-Coding-Quiz/raw/main/assets/images/NannysDiary.PNG",
+        "info":"Nanny's Diary is an app made for the in-home caretaker. Easily it connects you with all the parents in one forum where you can interact. This application is still a work in progress. Next steps are to add a scheduling calender for the caretaker.",
+        "github": "https://github.com/MilenaSilveira/Nannys-Diary.git",
+        "deploy": "https://lit-depths-94534.herokuapp.com/"
     },
     {
         "key":2,
-        "name": "App 2",
-        "image": "https://picsum.photos/200/200",
-        "info":"App 2 info",
-        "github": "https:github.com/domspadafora",
-        "deploy": "https://domspadafora.github.io/5-Doms-Workday-Scheduler/"
+        "name": "Team Profile Generator",
+        "image": "https://raw.githubusercontent.com/DomSpadafora/Team-Profile-Generator/main/images/Screenshot.PNG",
+        "info":"This application produces an html webpage with your team members rendered on it. The individual cards are based off of what you inputed using Inquirer.",
+        "github": "https://github.com/DomSpadafora/Team-Profile-Generator",
+        "deploy": "https://drive.google.com/file/d/1SHlodGhotl7OLmtfN61W94doD-zvYFUg/view"
     },
     {
         "key":3,
-        "name": "App 3",
-        "image": "https://picsum.photos/200/200",
-        "info":"App 3 info",
-        "github": "https:github.com/domspadafora",
-        "deploy": "https://domspadafora.github.io/5-Doms-Workday-Scheduler/"
+        "name": "Flight Assistant",
+        "image": "https://github.com/DomSpadafora/Alt-F404-Travel-Assistant/raw/main/assets/images/Airbnb%20input%20page.PNG",
+        "info":"Travel Assistant is a rental finding app that allows people to search for AirbnB rentals using their flight information. The app then uses mutiple API's to populate avaiable AirbnB rentals around your arrival airport.",
+        "github": "https://github.com/DomSpadafora/Alt-F404-Travel-Assistant.git",
+        "deploy": "https://domspadafora.github.io/Alt-F404-Travel-Assistant/"
     },
     {
         "key":4,
-        "name": "App 4",
-        "image": "https://picsum.photos/200/200",
-        "info":"App 4 info",
+        "name": "Employee Inquiry",
+        "image": "https://github.com/DomSpadafora/Employee-Inquiry/raw/main/images/Capture.PNG",
+        "info":"Employee Inquiry is a back end application for building and maintaining the employee database of a company. This application can be a foundation to start on and will scale with company growth.",
         "github": "https:github.com/domspadafora",
-        "deploy": "https://domspadafora.github.io/5-Doms-Workday-Scheduler/"
+        "deploy": "https://drive.google.com/file/d/1nXjVJkudRZRvboI3mvXMvwgKLepi0th9/view"
     },
     {
         "key":5,
-        "name": "App 5",
-        "image": "https://picsum.photos/200/200",
-        "info":"App 5 info",
-        "github": "https:github.com/domspadafora",
+        "name": "Work Day Scheduler",
+        "image": "https://github.com/DomSpadafora/5-Doms-Workday-Scheduler/raw/main/assets/images/Capture.PNG",
+        "info":"An application built to help orgainze someones daily schedule. The user is able to add, update, save, and delete tasks within the app.  .",
+        "github": "https://github.com/DomSpadafora/5-Doms-Workday-Scheduler.git",
         "deploy": "https://domspadafora.github.io/5-Doms-Workday-Scheduler/"
     }
 ]

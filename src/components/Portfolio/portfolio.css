@@ -17,26 +17,31 @@
     
 
 }
+.project-text {
+    font-size: 15px;
+    font-weight: lighter;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .card .img-container {
     height: 75%;
     overflow: hidden;
     text-align: center;
     border-radius: 10px;
-    background-color: var(--white);
 }
 
 .card .img-container img {
     width: 100%;
     padding: 25px;
     margin-bottom: 20px;
-    background-color: var(--white);
+
 }
 
 .card .content {
     font-size: 18px;
-    background-color: var(--white);
-    color: var(--cadet-blue);
     font-weight: bold;
     text-align: center;
   }
