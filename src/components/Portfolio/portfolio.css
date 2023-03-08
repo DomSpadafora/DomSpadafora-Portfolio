@@ -18,7 +18,7 @@
     flex-direction: row;
     box-shadow: 5px 5px 5px 5px;
     background-image: url(../../images/silverbackground.jpg);
-    background-size: cover
+   
     
 }
 
@@ -50,3 +50,9 @@
     font-weight: bold;
     text-align: center;
   }
+
+#portfolio {
+    width: 28%;
+    padding: 2px;
+    box-shadow: 5px 5px 5px 5px;
+}

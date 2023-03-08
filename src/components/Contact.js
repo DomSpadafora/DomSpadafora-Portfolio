@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
+import '../styles/Contact.css';
 
 function ContactForm() {
 
@@ -35,7 +36,7 @@ function ContactForm() {
   }
 
   return (
-    <section className="container">
+    <section className="container" id='contact-form'>
       <h2 className="top-title p-2" >Contact Form</h2>
       <hr></hr>
       <form className="justify-content-center" id="contact-form">

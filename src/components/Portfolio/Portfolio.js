@@ -5,8 +5,8 @@ import ProjectCard from './Project'
 const Portfolio = () => {
 return (
   <div id='appsDiv' >
-    <h2>Portfolio Applications</h2>
-    <hr></hr>
+    <h2 className='container' id='portfolio'>Portfolio Applications</h2>
+    
     <div className='cards'>
       {apps.map(({ name, image, github, deploy, key, info }) => (
         <div key={key}>
