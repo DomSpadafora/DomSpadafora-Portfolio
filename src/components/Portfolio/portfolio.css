@@ -11,15 +11,22 @@
     background-color: var(--white);
     border-radius: 10px;
     height: 100px;
-    margin: 2rem;
+    margin: 200px 50px;
     width: 500px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     box-shadow: 5px 5px 5px 5px;
     background-image: url(../../images/silverbackground.jpg);
-   
-    
+}
+
+.cards .card:first-child {
+    margin-top: 100px;
+}
+
+.cards .card:nth-child(even) {
+    position: relative;
+    top: 400px;
 }
 
 .project-text {
@@ -29,6 +36,7 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card .img-container {

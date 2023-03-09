@@ -9,14 +9,15 @@ return (
     
     <div className='cards'>
       {apps.map(({ name, image, github, deploy, key, info }) => (
-        <div key={key}>
+        
           <ProjectCard 
+          key={key}
           name={name}
           image={image}
           info={info}
           github={github}
           deploy={deploy}/>
-        </div>)
+        )
       )}
     </div>
 

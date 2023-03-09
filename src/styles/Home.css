@@ -1,22 +1,19 @@
 body {
     background-image: url(../images/citybackground.jpg);
     background-size: cover;
-    background-repeat: repeat-y;
     width: 100%;
     height: 100vh;
+    background-attachment: fixed;
     
 }
 
 
-card {
+.banner {
     background: rgba(204, 204, 204, 0.6);
-    margin-left: auto;
-    margin-right: auto;
     width: 50em;
-    position: absolute;
-    top: 30%;
-    left: 30%;
     text-align: center;
+    margin: 10vh auto;
+    box-shadow: 10px 10px 20px black;
        
 }
 

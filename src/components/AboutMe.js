@@ -1,4 +1,3 @@
-import React from 'react'
 import headshot from '../images/dom_headshot.jfif'
 import '../styles/AboutMe.css'
 
