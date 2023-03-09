@@ -6,16 +6,7 @@ import '../../styles/Resume.css'
 const Resume = () => {
   return (
     
-      
-        
-        <iframe src={samplePDF}>
-
-        </iframe>
-     
-
-      
-
- 
+       <iframe src={samplePDF}></iframe>
 
   )
 
