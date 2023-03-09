@@ -26,7 +26,7 @@
 
 .cards .card:nth-child(even) {
     position: relative;
-    top: 400px;
+    top: 200px;
 }
 
 .project-text {
