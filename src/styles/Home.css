@@ -9,11 +9,12 @@ body {
 
 
 .banner {
-    background: rgba(204, 204, 204, 0.6);
+    background: rgba(204, 204, 204, 0.8);
     width: 50em;
     text-align: center;
     margin: 20vh auto;
     box-shadow: 10px 10px 20px black;
+    border-radius: 15px 15px 15px 15px;
        
 }
 

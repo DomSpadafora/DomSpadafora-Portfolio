@@ -18,6 +18,7 @@
     flex-direction: row;
     box-shadow: 5px 5px 5px 5px;
     background-image: url(../../images/silverbackground.jpg);
+    
 }
 
 .cards .card:first-child {
@@ -63,4 +64,5 @@
     width: 28%;
     padding: 2px;
     box-shadow: 5px 5px 5px 5px;
+    border-radius: 15px 15px 15px 15px;
 }
