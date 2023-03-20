@@ -27,7 +27,7 @@
 
 .cards .card:nth-child(even) {
     position: relative;
-    top: 200px;
+    top: 300px;
 }
 
 .project-text {
@@ -66,3 +66,124 @@
     box-shadow: 5px 5px 5px 5px;
     border-radius: 15px 15px 15px 15px;
 }
+
+/* styles for screens with a width of 768px or more */
+@media screen and (min-width: 768px) {
+    #appsDiv {
+      text-align: center;
+      width: 95%;
+      margin-top: 1rem;
+      padding-bottom: 5rem;
+      padding-left: 4rem;
+    }
+  
+    .card {
+      background-color: var(--white);
+      border-radius: 10px;
+      height: 100px;
+      margin: 200px 50px;
+      width: 500px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      box-shadow: 5px 5px 5px 5px;
+      background-image: url(../../images/silverbackground.jpg);
+    }
+  
+    .cards .card:first-child {
+      margin-top: 100px;
+    }
+  
+    .cards .card:nth-child(even) {
+      position: relative;
+      top: 200px;
+    }
+  
+    .project-text {
+      font-size: 15px;
+      font-weight: lighter;
+    }
+  
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .card .img-container {
+      height: 75%;
+      overflow: hidden;
+      text-align: center;
+      border-radius: 10px;
+    }
+  
+    .card .img-container img {
+      width: 100%;
+      padding: 25px;
+      margin-bottom: 20px;
+    }
+  
+    .card .content {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    #portfolio {
+      width: 28%;
+      padding: 2px;
+      box-shadow: 5px 5px 5px 5px;
+      border-radius: 15px 15px 15px 15px;
+    }
+  }
+  
+  /* styles for screens with a width of less than 768px */
+  @media screen and (max-width: 767px) {
+    #appsDiv {
+      text-align: center;
+      width: 100%;
+      margin-top: 1rem;
+      padding-bottom: 5rem;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .card {
+      margin: 0;
+      width: 100%;
+      height: auto;
+    }
+  
+    .cards .card:nth-child(even) {
+      position: static;
+      margin-top: 2rem;
+    }
+  
+    .project-text {
+      font-size: 12px;
+    }
+  
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .card .img-container {
+      height: auto;
+    }
+  
+    .card .img-container img {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .card .content {
+      font-size: 16px;
+    }
+  
+    #portfolio {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }

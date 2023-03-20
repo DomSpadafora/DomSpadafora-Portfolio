@@ -25,7 +25,28 @@
 #about-me-container {
     margin-top: 5rem;
     width: 80%;
-    
     box-shadow: 5px 5px 5px 5px;
     
 }
+
+/* Media Query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+    #headshot {
+      width: 50%;
+    }
+  
+    #about-text {
+      margin-right: 0;
+    }
+  }
+  
+  /* Media Query for screens between 768px and 1024px */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    #headshot {
+      width: 60%;
+    }
+  
+    #about-me-container {
+      width: 90%;
+    }
+  }
