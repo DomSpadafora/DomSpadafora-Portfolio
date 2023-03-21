@@ -1,6 +1,7 @@
 #headshot {
     border-radius: 10%;
-    width: 75%;
+    width: 50%;
+    float: left; 
     
 }
 
@@ -26,9 +27,8 @@
 }
 
 #about-me-container {
-    margin-top: 5rem;
-    width: 80%;
     box-shadow: 5px 5px 5px 5px; 
+    border-radius: 10px;
 }
 
 /* CSS for devices with a screen width of 768 pixels or more */
