@@ -11,7 +11,7 @@ import logo from '../images/domspadafora.PNG'
 const Header = () =>
   <Router>
     <div>
-      <nav className="navbar navbar-expand sticky-top p-1">
+      <nav className="navbar navbar-expand  p-1">
       <img src={logo} className="img-responsive rounded" alt=""/>
           
         
