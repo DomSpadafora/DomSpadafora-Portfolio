@@ -3,5 +3,23 @@
     margin-top: 5rem;
     padding: 1rem;
     box-shadow: 5px 5px 5px 5px;
+    font-family: cursive;
 
 }
+
+/* CSS for devices with a screen width of 768 pixels or more */
+@media screen and (min-width: 768px) {
+    #contact-form {
+      margin-top: 8rem;
+      padding: 2rem;
+    }
+  }
+  
+  /* CSS for devices with a screen width of less than 768 pixels */
+  @media screen and (max-width: 767px) {
+    #contact-form {
+      margin-top: 3rem;
+      padding: 1rem;
+    }
+  }
+  

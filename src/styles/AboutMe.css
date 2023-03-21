@@ -1,6 +1,7 @@
 #headshot {
     border-radius: 10%;
-    width: 75%;   
+    width: 75%;
+    
 }
 
 .col p {
@@ -12,9 +13,11 @@
 }
 
 #about-text {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-size: 20px;
-    margin-right: 5rem; 
+    margin-right: 5rem;
+    font-family: cursive; 
     
 }
 .container {
@@ -25,28 +28,53 @@
 #about-me-container {
     margin-top: 5rem;
     width: 80%;
-    box-shadow: 5px 5px 5px 5px;
-    
+    box-shadow: 5px 5px 5px 5px; 
 }
 
-/* Media Query for screens smaller than 768px */
-@media screen and (max-width: 767px) {
-    #headshot {
-      width: 50%;
-    }
-  
-    #about-text {
-      margin-right: 0;
-    }
+/* CSS for devices with a screen width of 768 pixels or more */
+@media screen and (min-width: 768px) {
+  #headshot {
+    width: 50%;
+  }
+
+  #about-text {
+    margin-right: 10rem;
+  }
+
+  #about-me-container {
+    width: 60%;
+  }
+}
+
+/* CSS for devices with a screen width of 576 pixels or more */
+@media screen and (min-width: 576px) {
+  #headshot {
+    width: 60%;
   }
   
-  /* Media Query for screens between 768px and 1024px */
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    #headshot {
-      width: 60%;
-    }
-  
-    #about-me-container {
-      width: 90%;
-    }
+  #about-text {
+    margin-right: 3rem;
   }
+
+  #about-me-container {
+    width: 70%;
+  }
+}
+
+/* CSS for devices with a screen width of less than 576 pixels */
+@media screen and (max-width: 575px) {
+  #headshot {
+    width: 100%;
+  }
+
+  #about-text {
+    margin-right: 0;
+  }
+
+  #about-me-container {
+    width: 100%;
+  }
+}
+
+
+  

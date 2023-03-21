@@ -6,7 +6,7 @@ const AboutME = () => {
 
     <div className='container' id='about-me-container'>
       <div className='row'>
-        <div className='col m-1'>
+        <div className='col m-5'>
           <h2 id='about-me'>About Me</h2>
           <hr></hr>
           <img className='rounded-circle' id='headshot' src={headshot} alt="Dom Spadafora" />

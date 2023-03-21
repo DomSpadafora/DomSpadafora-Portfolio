@@ -1,9 +1,11 @@
+
 body {
     background-image: url(../images/citybackground.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
     background-attachment: fixed;
+    font-family: cursive;
     
 }
 
@@ -23,12 +25,76 @@ body {
     font-size: 75px;
     padding: 50px;
     font-weight: bolder;
-    color: 342e37
+    color: 342e37;
+    font-family: cursive;
 }
 
 .home-background p {
     font-size: 20px;
     font-weight: bold;
     color: 342e37;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    font-family: cursive;
 }
+
+
+/* Media queries for specific screen sizes */
+@media only screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .banner {
+      width: 80%;
+      margin: 10vh auto;
+      box-shadow: 5px 5px 10px black;
+      border-radius: 10px;
+    }
+    
+    .home-background h1 {
+      font-size: 50px;
+      padding: 20px;
+    }
+    
+    .home-background p {
+      font-size: 16px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for screens between 769px and 1024px wide */
+    .banner {
+      width: 70%;
+      margin: 15vh auto;
+      box-shadow: 8px 8px 16px black;
+      border-radius: 12px;
+    }
+    
+    .home-background h1 {
+      font-size: 60px;
+      padding: 30px;
+    }
+    
+    .home-background p {
+      font-size: 18px;
+      padding-bottom: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    /* Styles for screens wider than 1025px */
+    .banner {
+      width: 60%;
+      margin: 20vh auto;
+      box-shadow: 10px 10px 20px black;
+      border-radius: 15px;
+    }
+    
+    .home-background h1 {
+      font-size: 75px;
+      padding: 50px;
+    }
+    
+    .home-background p {
+      font-size: 20px;
+      padding-bottom: 20px;
+    }
+  }
