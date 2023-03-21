@@ -9,6 +9,14 @@
     },
     {
         "key":2,
+        "name": "Anthym",
+        "image": "https://github.com/AlexNash91/Beat-Bots/blob/main/client/src/assets/ReadMepic1.PNG?raw=true",
+        "info":"An application built to help orgainze someones daily schedule. The user is able to add, update, save, and delete tasks within the app.",
+        "github": "https://github.com/AlexNash91/Beat-Bots.git",
+        "deploy": "https://anthym.herokuapp.com/"
+    },
+    {
+        "key":3,
         "name": "Team Profile Generator",
         "image": "https://raw.githubusercontent.com/DomSpadafora/Team-Profile-Generator/main/images/Screenshot.PNG",
         "info":"This application produces an html webpage with your team members rendered on it. The individual cards are based off of what you inputed using Inquirer.",
@@ -16,7 +24,7 @@
         "deploy": "https://drive.google.com/file/d/1SHlodGhotl7OLmtfN61W94doD-zvYFUg/view"
     },
     {
-        "key":3,
+        "key":4,
         "name": "Flight Assistant",
         "image": "https://github.com/DomSpadafora/Alt-F404-Travel-Assistant/raw/main/assets/images/Airbnb%20input%20page.PNG",
         "info":"Travel Assistant is a rental finding app that allows people to search for AirbnB rentals using their flight information. The app then uses mutiple API's to populate avaiable AirbnB rentals around your arrival airport.",
@@ -24,7 +32,7 @@
         "deploy": "https://domspadafora.github.io/Alt-F404-Travel-Assistant/"
     },
     {
-        "key":4,
+        "key":5,
         "name": "Employee Inquiry",
         "image": "https://github.com/DomSpadafora/Employee-Inquiry/raw/main/images/Capture.PNG",
         "info":"Employee Inquiry is a back end application for building and maintaining the employee database of a company. This application can be a foundation to start on and will scale with company growth.",
@@ -32,7 +40,7 @@
         "deploy": "https://drive.google.com/file/d/1nXjVJkudRZRvboI3mvXMvwgKLepi0th9/view"
     },
     {
-        "key":5,
+        "key":6,
         "name": "Work Day Scheduler",
         "image": "https://github.com/DomSpadafora/5-Doms-Workday-Scheduler/raw/main/assets/images/Capture.PNG",
         "info":"An application built to help orgainze someones daily schedule. The user is able to add, update, save, and delete tasks within the app.  .",
