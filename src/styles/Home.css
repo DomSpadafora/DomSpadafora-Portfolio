@@ -26,7 +26,7 @@ body {
     padding: 50px;
     font-weight: bolder;
     color: 342e37;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .home-background p {
@@ -34,7 +34,7 @@ body {
     font-weight: bold;
     color: 342e37;
     padding-bottom: 20px;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 
