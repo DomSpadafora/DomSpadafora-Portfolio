@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/DomSpadafora-Portfolio/static/css/main.a286a3ef.css",
-    "main.js": "/DomSpadafora-Portfolio/static/js/main.3fe06b7c.js",
+    "main.css": "/DomSpadafora-Portfolio/static/css/main.faaffc57.css",
+    "main.js": "/DomSpadafora-Portfolio/static/js/main.cb7356dd.js",
     "static/media/citybackground.jpg": "/DomSpadafora-Portfolio/static/media/citybackground.c8f617c40392ad289e7c.jpg",
     "static/media/silverbackground.jpg": "/DomSpadafora-Portfolio/static/media/silverbackground.7ca59d1abffe5753fffb.jpg",
     "static/media/dom_headshot.jfif": "/DomSpadafora-Portfolio/static/media/dom_headshot.aebab5d5270c00464ca2.jfif",
     "static/media/resume.pdf": "/DomSpadafora-Portfolio/static/media/resume.e62d44d379ba89e120d3.pdf",
     "static/media/domspadafora.PNG": "/DomSpadafora-Portfolio/static/media/domspadafora.2bb57397da7e3c7b0714.PNG",
     "index.html": "/DomSpadafora-Portfolio/index.html",
-    "main.a286a3ef.css.map": "/DomSpadafora-Portfolio/static/css/main.a286a3ef.css.map",
-    "main.3fe06b7c.js.map": "/DomSpadafora-Portfolio/static/js/main.3fe06b7c.js.map"
+    "main.faaffc57.css.map": "/DomSpadafora-Portfolio/static/css/main.faaffc57.css.map",
+    "main.cb7356dd.js.map": "/DomSpadafora-Portfolio/static/js/main.cb7356dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.a286a3ef.css",
-    "static/js/main.3fe06b7c.js"
+    "static/css/main.faaffc57.css",
+    "static/js/main.cb7356dd.js"
   ]
 }
