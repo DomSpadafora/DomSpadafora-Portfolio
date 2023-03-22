@@ -10,6 +10,8 @@ import { Navbar, Nav, } from 'react-bootstrap';
 
 
 const Header = () =>
+
+
   <BrowserRouter>
     <div>
       <Navbar expand="lg" collapseOnSelect>
@@ -20,11 +22,11 @@ const Header = () =>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav>
-            <Nav.Link as={Link} to='/DomSpadafora-Portfolio' style={{color:"#333533"}}> Home </Nav.Link>
-            <Nav.Link as={Link} to='/about-me' style={{color:"#333533"}}>About</Nav.Link>
-            <Nav.Link as={Link} to='/resume' style={{color:"#333533"}}>Resume</Nav.Link>
-            <Nav.Link as={Link} to='/portfolio' style={{color:"#333533"}}>Portfolio</Nav.Link>
-            <Nav.Link as={Link} to='/contact'style={{color:"#333533"}}>Contact</Nav.Link>
+            <Nav.Link eventKey="2" as={Link} to='/DomSpadafora-Portfolio' style={{color:"#333533"}}> Home </Nav.Link>
+            <Nav.Link eventKey="2" as={Link} to='/about-me' style={{color:"#333533"}}>About</Nav.Link>
+            <Nav.Link eventKey="2" as={Link} to='/resume' style={{color:"#333533"}}>Resume</Nav.Link>
+            <Nav.Link eventKey="2" as={Link} to='/portfolio' style={{color:"#333533"}}>Portfolio</Nav.Link>
+            <Nav.Link eventKey="2" as={Link} to='/contact'style={{color:"#333533"}}>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
 
