@@ -11,7 +11,7 @@
         "key":2,
         "name": "Anthym",
         "image": "https://github.com/AlexNash91/Beat-Bots/blob/main/client/src/assets/ReadMepic1.PNG?raw=true",
-        "info":"An application built to help orgainze someones daily schedule. The user is able to add, update, save, and delete tasks within the app.",
+        "info":"Anthym is the ultimate music social media platform for music lovers searching for the next upcoming artist. With Anthym, you can discover new music, connect with other music enthusiasts, and share your favorite tunes with the world.",
         "github": "https://github.com/AlexNash91/Beat-Bots.git",
         "deploy": "https://anthym.herokuapp.com/"
     },
