@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio/Portfolio'
 import Contact from './Contact';
@@ -12,13 +12,13 @@ import { Navbar, Nav, } from 'react-bootstrap';
 const Header = () =>
   <BrowserRouter>
     <div>
-      <Navbar expand="lg" collapseOnSelect >
+      <Navbar expand="lg" collapseOnSelect>
         <Navbar.Brand>
           <img src={logo} className="img-responsive rounded" alt="" />
         </Navbar.Brand>
 
         <Navbar.Toggle />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse>
           <Nav>
             <Nav.Link as={Link} to='/DomSpadafora-Portfolio' style={{color:"#333533"}}> Home </Nav.Link>
             <Nav.Link as={Link} to='/about-me' style={{color:"#333533"}}>About</Nav.Link>

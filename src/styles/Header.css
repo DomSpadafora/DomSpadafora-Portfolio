@@ -1,11 +1,12 @@
 nav {
     font-size: 25px;
-    height: 100px;
+    height: auto;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    background-color: rgba(204, 204, 204, 0.6)
-        
+    background-color: rgba(204, 204, 204, 0.6);     
 };
+
+
 
 @media (max-width: 768px) {
     .nav {
