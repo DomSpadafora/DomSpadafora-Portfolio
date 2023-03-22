@@ -2,8 +2,19 @@ nav {
     font-size: 25px;
     height: 100px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold      
+    font-weight: bold;
+    background-color: rgba(204, 204, 204, 0.6)
+        
 };
+
+@media (max-width: 768px) {
+    .nav {
+      font-size: 20px; 
+      height: auto; 
+      background-color: rgba(204, 204, 204, 0.8)
+    }
+  }
+
 
 
 

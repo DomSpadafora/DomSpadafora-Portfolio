@@ -1,7 +1,7 @@
 #headshot {
     border-radius: 10%;
     width: 50%;
-    float: left; 
+    
     
 }
 
@@ -23,7 +23,8 @@
 }
 .container {
     background-image: url(../images/silverbackground.jpg);
-    background-size: cover
+    background-size: cover;
+    margin: 5rem
 }
 
 #about-me-container {
