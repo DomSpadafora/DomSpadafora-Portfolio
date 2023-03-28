@@ -1,68 +1,38 @@
-import React, { useState } from 'react';
-import { validateEmail } from '../utils/helpers';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import '../styles/Contact.css';
+import toast, { Toaster } from "react-hot-toast";
 
-function ContactForm() {
+const ContactForm = () => {
 
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-  const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
+  const form = useRef();
 
-  function handleChange(e) {
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-
-      if (!isValid) {
-        setErrorMessage('please enter a valid email');
-      } else {
-        setErrorMessage('');
-      }
-
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage('');
-      }
-    }
-
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value })
-    }
-  }
-
-  function handleSubmit(e) {
+  const sendEmail = (e) => {
     e.preventDefault();
-  }
+
+    emailjs.sendForm('service_mdbhotn', 'template_4abdu0b', form.current, 'CXQuEtMdvDvYM7An0')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  const successToast = () => toast.success("Message Sent");
 
   return (
-    <section className="container" id='contact-form'>
-      <h2 className="top-title p-2" >Contact Form</h2>
+    <form ref={form} onSubmit={sendEmail} >
+      <h2>Contact Me</h2>
       <hr></hr>
-      <form className="justify-content-center" id="contact-form">
-        <div className="mt-5" >
-          <label htmlFor="name">Name:</label>
-          <input className="form-control" type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div className="mt-5" >
-          <label htmlFor="email">Email Address:</label>
-          <input className="form-control" type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div className="mt-5" >
-          <label htmlFor="message">Message:</label>
-          <textarea className="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-
-        <div className="mt-5 mb-5" >
-          <button className="btn btn-outline-dark " type="submit" onSubmit={handleSubmit}>Submit</button>
-        </div>
-      </form>
-    </section>
+      <label>Name:</label>
+      <input type="text" name="user_name" />
+      <label>Email:</label>
+      <input type="email" name="user_email" />
+      <label >Message:</label>
+      <textarea name="message" />
+      <button onClick={successToast}>Success toast</button>
+      <Toaster />
+    </form>
   );
 }
 
