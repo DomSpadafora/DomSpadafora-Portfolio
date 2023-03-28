@@ -3,16 +3,3 @@ embed {
     height: 100vh;
 }
 
-/* Styles for screens with a maximum width of 768px */
-@media screen and (max-width: 768px) {
-  embed {
-      height: 100vh;
-  }
-}
-
-/* Styles for screens with a maximum width of 480px */
-@media screen and (max-width: 480px) {
-  embed {
-      height: 100vh;
-  }
-}
