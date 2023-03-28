@@ -3,10 +3,11 @@ import samplePDF from '../Resume/resume.pdf'
 import '../../styles/Resume.css'
 
 
+
 const Resume = () => {
   return (
     
-       <iframe src={samplePDF}></iframe>
+       <embed src={samplePDF}></embed>
 
   )
 
