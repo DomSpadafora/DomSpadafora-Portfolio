@@ -3,7 +3,7 @@
         "key":1,
         "name": "Nanny's Diary",
         "image": "https://github.com/DomSpadafora/Doms-Coding-Quiz/raw/main/assets/images/NannysDiary.PNG",
-        "info":"Nanny's Diary is an app made for the in-home caretaker. Easily it connects you with all the parents in one forum where you can interact. This application is still a work in progress. Next steps are to add a scheduling calender for the caretaker.",
+        "info":"Nanny's Diary is an app made for the in-home caretaker. Easily it connects you with all the parents in one forum where you can interact. This application is still a work in progress. Next steps are to add a scheduling calendar for the caretaker.",
         "github": "https://github.com/MilenaSilveira/Nannys-Diary.git",
         "deploy": "https://lit-depths-94534.herokuapp.com/"
     },
@@ -27,7 +27,7 @@
         "key":4,
         "name": "Flight Assistant",
         "image": "https://github.com/DomSpadafora/Alt-F404-Travel-Assistant/raw/main/assets/images/Airbnb%20input%20page.PNG",
-        "info":"Travel Assistant is a rental finding app that allows people to search for AirbnB rentals using their flight information. The app then uses mutiple API's to populate avaiable AirbnB rentals around your arrival airport.",
+        "info":"Travel Assistant is a rental finding app that allows people to search for AirbnB rentals using their flight information. The app then uses multiple API's to populate available AirbnB rentals around your arrival airport.",
         "github": "https://github.com/DomSpadafora/Alt-F404-Travel-Assistant.git",
         "deploy": "https://domspadafora.github.io/Alt-F404-Travel-Assistant/"
     },
