@@ -30,7 +30,7 @@ const ContactForm = () => {
       <input type="email" name="user_email" />
       <label >Message:</label>
       <textarea name="message" />
-      <button onClick={successToast}>Success toast</button>
+      <button onClick={successToast}>Send</button>
       <Toaster />
     </form>
   );
