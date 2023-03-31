@@ -30,6 +30,7 @@
 #about-me-container {
     box-shadow: 5px 5px 5px 5px; 
     border-radius: 10px;
+    padding-bottom: 3rem
 }
 
 /* CSS for devices with a screen width of 768 pixels or more */
