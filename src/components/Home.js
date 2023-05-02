@@ -6,7 +6,7 @@ const Home = () => {
     <div className='home-background'>
       <div className="banner">
         <h1>Dom Spadafora</h1>
-        <p>Full-Stack Web Developer</p>
+        <p>Full Stack Web Developer</p>
         <q>If you can let go of passion and follow your curiosity, your curiosity just might lead you to your passion.</q>
       </div>
     </div>
