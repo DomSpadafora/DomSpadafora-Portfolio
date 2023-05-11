@@ -38,6 +38,8 @@ q {
   font-size: 30px;
 }
 
+
+
 @media screen and (max-width: 768px) {
   /* Styles for screens 768px and smaller */
   .banner {
