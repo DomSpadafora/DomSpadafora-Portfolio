@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Home.css'
-import javascript from '../images/javascript-39395.png'
+import javascript from '../images/icons8-javascript.gif'
 
 const Home = () => {
   return (
