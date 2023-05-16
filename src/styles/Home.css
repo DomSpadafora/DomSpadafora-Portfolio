@@ -34,7 +34,8 @@ body {
 }
 
 q {
-  font-family: cursive;
+  font-family:Copperplate, Papyrus, fantasy;
+  font-weight: bolder;
   font-size: 30px;
 }
 

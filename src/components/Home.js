@@ -11,9 +11,7 @@ const Home = () => {
         <q>If you can let go of passion and follow your curiosity, your curiosity just might lead you to your passion.</q>
       </div>
 
-      <section>
-        <img src= {javascript} alt=''/>
-      </section>
+
     </div>
 
   )
